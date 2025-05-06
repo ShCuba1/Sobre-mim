@@ -9,7 +9,7 @@ function trocarDeModo() {
   const img = document.querySelector("#perfil img")
 
   if (html.classList.contains("modoclaro")) {
-    img.setAttribute("src", "./imagens/cubinha.png")
+    img.setAttribute("src", "./imagens/socialsemfundo.png")
   } else {
     img.setAttribute("src", "./imagens/Perfilsemfundo.png")
   }
